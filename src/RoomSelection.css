@@ -1,0 +1,68 @@
+
+    .backG-color.dark-mode {
+        background-color: black; /* Set the default background color to black */
+        color: white; /* Set the default text color to white */
+    }
+    
+    .room-selection-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 6rem;
+        background-color: lightblue;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 15rem;
+        color: #333; /* Set text color for light mode */
+    }
+    
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .room-options {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .room-options div {
+        display: flex;
+        align-items: center;
+    }
+    
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    label {
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
